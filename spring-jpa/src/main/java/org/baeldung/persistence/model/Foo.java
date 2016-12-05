@@ -84,9 +84,6 @@ public class Foo implements Serializable {
 
     @Override
     public String toString() {
-        final StringBuilder builder = new StringBuilder();
-        builder.append("Foo [name=").append(name).append("]");
-        return builder.toString();
+        return new StringBuilder().append("Foo [name=").append(name).append("]").toString();
     }
-
 }

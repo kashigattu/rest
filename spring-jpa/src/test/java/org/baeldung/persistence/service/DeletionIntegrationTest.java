@@ -118,8 +118,8 @@ public class DeletionIntegrationTest {
         flushAndClear();
 
         entityManager.createQuery("delete from Foo where id = :id")
-                .setParameter("id", foo.getId())
-                .executeUpdate();
+          .setParameter("id", foo.getId())
+          .executeUpdate();
 
         assertThat(entityManager.find(Foo.class, foo.getId()), nullValue());
     }
@@ -132,8 +132,8 @@ public class DeletionIntegrationTest {
         flushAndClear();
 
         entityManager.createNativeQuery("delete from FOO where ID = :id")
-                .setParameter("id", foo.getId())
-                .executeUpdate();
+          .setParameter("id", foo.getId())
+          .executeUpdate();
 
         assertThat(entityManager.find(Foo.class, foo.getId()), nullValue());
     }

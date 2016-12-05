@@ -53,8 +53,6 @@ public class Bar {
 
     @Override
     public String toString() {
-        final StringBuilder builder = new StringBuilder();
-        builder.append("Bar [name=").append(name).append("]");
-        return builder.toString();
+        return new StringBuilder().append("Bar [name=").append(name).append("]").toString();
     }
 }

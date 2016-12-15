@@ -16,5 +16,7 @@
 - [Java – Byte Array to Writer](http://www.baeldung.com/java-convert-byte-array-to-writer)
 - [How to Run a Shell Command in Java](http://www.baeldung.com/run-shell-command-in-java)
 - [MD5 Hashing in Java](http://www.baeldung.com/java-md5)
+- [Generate equals() and hashCode() with Eclipse](http://www.baeldung.com/java-eclipse-equals-and-hashcode)
+- [A Guide To Java Regular Expressions API](http://www.baeldung.com/regular-expressions-java)
 - [Guide to the Java ArrayList](http://www.baeldung.com/java-arraylist)
 - [Guide to Java Reflection](http://www.baeldung.com/java-reflection)

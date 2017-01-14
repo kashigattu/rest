@@ -7,7 +7,6 @@ public class Customer {
     private String customerEmail;
 
     public Customer() {
-        super();
     }
 
     public String getCustomerId() {
